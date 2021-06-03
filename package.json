@@ -2,10 +2,11 @@
   "name": "chipchat",
   "version": "1.0.0",
   "description": "A small real time chat web application api",
-  "repository":"https://github.com/saeedvw/chipchat-api.git",
+  "repository": "https://github.com/saeedvw/chipchat-api.git",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js",
+    "start-dev": "nodemon server.js"
   },
   "keywords": [
     "Chat",

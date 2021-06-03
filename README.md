@@ -12,7 +12,10 @@ Install packages
 ```
 npm install
 ```
-
+Install Dev Depenencies (Optional)
+```
+npm install -D
+```
 ### Configuration
 see `.env.example` to set up environment variables.
 
@@ -21,6 +24,11 @@ see [Frontend Repo](https://github.com/saeedvw/chipchat-ui.git)
 
 
 ### Start development server
+with nodemon
+```
+npm run start-dev
+```
+without nodemon
 ```
 npm run start
 ```
