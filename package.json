@@ -17,6 +17,9 @@
     "chat"
   ],
   "author": "Saeed Qadah",
+  "engines": {
+    "node": ">=15"
+  },
   "license": "GPL-3.0",
   "dependencies": {
     "bcrypt": "^5.0.1",
