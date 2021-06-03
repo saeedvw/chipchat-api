@@ -1,0 +1,37 @@
+{
+  "name": "chipchat",
+  "version": "1.0.0",
+  "description": "A small real time chat web application api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "Chat",
+    "socketio",
+    "vue-socketio",
+    "node-socketio",
+    "realtime",
+    "chat"
+  ],
+  "author": "Saeed Qadah",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.11",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "socket.io": "^4.1.2",
+    "socketio-jwt-auth": "^0.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
