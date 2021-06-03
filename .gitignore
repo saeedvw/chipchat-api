@@ -12,6 +12,7 @@ pids
 # UPLOADS DIRECTORY
 uploads/
 
+Procfile
 
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
